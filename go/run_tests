@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+cd $(dirname $0)
+for dir in $(ls | grep -v $(basename $0)); do
+  bash -c "cd $dir; go test"
+done
