@@ -1,0 +1,13 @@
+tmp
+_Store
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+*.tmp
+*.bk
+*.bkup
+__pycache__
+.pytest_cache
