@@ -3,7 +3,7 @@ version: 2.0
 jobs:
   go:
     docker:
-      - image: cimg/go:1.10.8
+      - image: cimg/go:1.22.0
     steps:
       - checkout
       - run:
